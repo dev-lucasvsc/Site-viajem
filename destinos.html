@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todos os Destinos - ExploreMundo</title>
+
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="destinos.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#e8651a"/>
+    </svg>
+    <span>Explore</span>Mundo
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="destinos.html" class="active">Destinos</a></li>
+    <li><a href="index.html#sobre">Sobre</a></li>
+    <li><a href="index.html#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<header class="page-header">
+  <img
+    src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2000&auto=format&fit=crop"
+    alt="Avião voando sobre as nuvens"
+    loading="eager"
+  />
+  <div class="page-header-content">
+    <h1>Todos os Destinos</h1>
+    <p>Encontre o cenário perfeito para a sua próxima aventura.</p>
+  </div>
+</header>
+
+<section class="all-destinations">
+  
+  <div class="filters">
+    <button class="filter-btn active">Todos</button>
+    <button class="filter-btn">Praia</button>
+    <button class="filter-btn">Neve</button>
+    <button class="filter-btn">Cultura</button>
+    <button class="filter-btn">Natureza</button>
+  </div>
+
+  <div class="dest-grid">
+    <div class="dest-card">
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/55b7e44de4b0af4724ac5dd6/1572264670880-WUYJ1CZS9PR5H7L88XSE/borabora18.jpg?format=2500w"
+        alt="Praia paradisíaca"
+        loading="lazy"
+      />
+      <div class="dest-info">
+        <h3>Bora Bora, Polinésia</h3>
+        <p>Bungalows sobre águas cristalinas para relaxamento total.</p>
+      </div>
+    </div>
+
+    <div class="dest-card">
+      <img
+        src="https://images.unsplash.com/photo-1748375748328-d9e30a0adc02?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0"
+        alt="Montanhas nevadas"
+        loading="lazy"
+      />
+      <div class="dest-info">
+        <h3>Alpes Suíços</h3>
+        <p>As melhores pistas de esqui e resorts nas montanhas.</p>
+      </div>
+    </div>
+
+    <div class="dest-card">
+      <img
+        src="https://content-cdn.querobolsa.com.br/uploads/009d768d-52f1-4961-9eeb-187d6fb22ed3.jpg"
+        alt="Cidade histórica europeia"
+        loading="lazy"
+      />
+      <div class="dest-info">
+        <h3>Roma, Itália</h3>
+        <p>Uma imersão na história, arte e gastronomia inesquecível.</p>
+      </div>
+    </div>
+
+    <div class="dest-card">
+      <img
+        src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop"
+        alt="Templo no Japão"
+        loading="lazy"
+      />
+      <div class="dest-info">
+        <h3>Quioto, Japão</h3>
+        <p>Tradição milenar, templos deslumbrantes e a beleza das cerejeiras.</p>
+      </div>
+    </div>
+
+    <div class="dest-card">
+      <img
+        src="https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=800&auto=format&fit=crop"
+        alt="Savana Africana"
+        loading="lazy"
+      />
+      <div class="dest-info">
+        <h3>Savana, África do Sul</h3>
+        <p>Safáris emocionantes e contato direto com a vida selvagem.</p>
+      </div>
+    </div>
+
+    <div class="dest-card">
+      <img
+        src="https://borealisexpedicoes.com.br/wp-content/uploads/2025/06/istock-663874486-copia-scaled-1.jpg"
+        alt="Aurora Boreal"
+        loading="lazy"
+      />
+      <div class="dest-info">
+        <h3>Reykjavík, Islândia</h3>
+        <p>Paisagens vulcânicas e a magia das luzes da aurora boreal.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pagination">
+    <a href="#" class="page-num active">1</a>
+    <a href="#" class="page-num">2</a>
+    <a href="#" class="page-num">3</a>
+    <a href="#" class="page-num">&raquo;</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2024 <strong>ExploreMundo</strong> – Todos os direitos reservados
+</footer>
+
+</body>
+</html>
